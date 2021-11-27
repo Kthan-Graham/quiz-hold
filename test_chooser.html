@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base code</title>
+    <!--Bootstrap CSS injection-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<!--Nav bar-->
+<nav style="margin-top: .2cm;">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="\index.html" style="color: orange;">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="\howto.html" style="color: orange;">How to</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: orangered;">Tests</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="results.html" style="color: orange;">Results</a>
+        </li>
+    </ul>
+</nav>
+
+<body style="background-color: rgb(75, 75, 75);">
+    <div class="container" style="background: darkgray; margin-top: .5cm; border-radius: 5px;">
+        <h3 style="margin-top: .5cm;margin-bottom: .5cm;">Choose your test:</h3>
+
+        <!--row 1-->
+        <div class="row">
+            <!--Javascript button-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\JSicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <a href="\Javascript\Test.html" class="btn btn-primary"
+                            style="background: orange; color: black;">Begin Test</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Python button-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\PYicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <a href="/Python/Test.html" class="btn btn-primary"
+                            style="background: orange; color: black;">Begin Test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--row 2-->
+        <div class="row">
+            <!--SQL-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\SQLicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <a href="/SQL/Test.html" class="btn btn-primary" style="background: orange; color: black;">Begin
+                            Test</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--C#-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\Csicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">C#</h5>
+                        <a href="/Csharp/Test.html" class="btn btn-primary"
+                            style="background: orange; color: black;">Begin Test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--row 3-->
+        <div class="row">
+            <!--C++-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\Cpicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">C++</h5>
+                        <a href="/C++/Test.html" class="btn btn-primary" style="background: orange; color: black;">Begin
+                            Test</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--CSS-->
+            <div class="col-sm" style="text-align: center; margin-bottom: .5cm;">
+                <div class="card"
+                    style="width: 100%; align-tracks: center; background: rgb(129, 129, 129); min-height: 100%;">
+                    <img src="\images\CSSicon.png" class="card-img-top" alt="..."
+                        style="max-width: 3cm; align-self: center; margin-top: .2cm;">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <a href="/CSS/Test.html" class="btn btn-primary" style="background: orange; color: black;">Begin
+                            Test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--Bootstrap Javascript injection-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
